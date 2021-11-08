@@ -1,8 +1,9 @@
 variable bucket_name {
-    type = "String"
+    type = string
+    description = "Name of the bucket"
 }
 
 variable acl {
-    type = "String"
-    default_value = "private"
+    type = string
+    description = "Access control type"
 }
